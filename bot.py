@@ -16,10 +16,10 @@ from googletrans import Translator
 
 cl = PUY.LINE()
 #cl.login(qr=True)
-cl.login(token="EugBCs40FjrS2W8dQYTa.gIHgalwJsMTFisMR+xM0wG.4y+3/liOSQMZMIONFno8d0IIS4UbS+RiUZ+6oj53FZw=")
+cl.login(token="TokenAssistLoe")
 cl.loginResult()
 
-print "\n[CIE LOGIN CIEEEE]"
+print "\n╠->JANGAN SONGONG KALO PAKE SCRIPT ORANG WOOYY"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -153,7 +153,7 @@ helptranslate ="""
 KAC=[cl]
 mid = cl.getProfile().mid
 Bots = [mid]
-admin = ["u1a284600b5a34a6b5f2129abfd79b45a","u55921090d8045a512eb5bade5cdadf63"]
+admin = ["MidAssist","MidAkunUtama"]
 
 wait = {
     "likeOn":False,
@@ -526,7 +526,7 @@ def bot(op):
                      targets = []
                      for s in groups.members:
                          if _name in s.displayName:
-                             cl.sendText(msg.to, _name + " Berada DiGrup Ini")
+                             cl.sendText(msg.to, _name + " Berada Di Grup Ini")
                          else:
                              targets.append(invite)
                      if targets == []:
@@ -695,7 +695,7 @@ def bot(op):
                 
             elif msg.text.lower() == 'crash':
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "uda936836a9869eb86ec8ab992a4e8979',"}
+                msg.contentMetadata = {'mid': "MidAkunUtama',"}
                 cl.sendMessage(msg)
             elif msg.text.lower() == 'me':
                 msg.contentType = 13
@@ -950,7 +950,7 @@ def bot(op):
                 cl.sendMessage(msg)
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "uda936836a9869eb86ec8ab992a4e8979"}
+                msg.contentMetadata = {'mid': "MidAkunUtama"}
                 cl.sendMessage(msg)
                 kk.sendMessage(msg)
             elif msg.text.lower() == 'autoadd on':
@@ -2531,7 +2531,7 @@ def bot(op):
 
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "uda936836a9869eb86ec8ab992a4e8979"}
+                msg.contentMetadata = {'mid': "MidUtamaLoe"}
                 cl.sendMessage(msg)
 
             #elif msg.text in ["puy"]:
@@ -2582,7 +2582,7 @@ def bot(op):
 		    cname = cl.getContact(contact.mid).displayName
 		    if cname == _name:
 			cl.CloneContactProfile(contact.mid)
-			cl.sendText(msg.to, "Berhasil puy")
+			cl.sendText(msg.to, "Berhasil Bro")
 		    else:
 			pass
 
@@ -2808,7 +2808,7 @@ def bot(op):
                 for g in gs.members:
                     if _nametarget == g.displayName:
                        msg.contentType = 13
-                       msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
+                       msg.contentMetadata = {'mid': "MidUtamaLoe',"}
                        cl.sendText(g.mid,"Spam")
                        cl.sendMessage(msg)
                        cl.sendMessage(msg)
@@ -3018,7 +3018,7 @@ def bot(op):
                 	
             elif msg.text in ["Attack"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
+                msg.contentMetadata = {'mid': "MidUtamaLoe',"}
                 cl.sendMessage(msg)
                 cl.sendMessage(msg)
                 cl.sendMessage(msg)
@@ -3036,7 +3036,7 @@ def bot(op):
                 
             elif msg.text.lower() == '.....':
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
+                msg.contentMetadata = {'mid': "MidUtamaLoe',"}
                 cl.sendMessage(msg)    
 #=================================PUY SCRIPT FINISHED =============================================#
             
