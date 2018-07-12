@@ -16,7 +16,7 @@ from googletrans import Translator
 
 cl = PUY.LINE()
 #cl.login(qr=True)
-cl.login(token="EoLj6i2udbeCZlN8mEJ4.rAX10a6MHCMwuEeiTMBera.ofc0Jb6w46gOgfzFNtm3ukJKG6BX3IFto/sk61H8G4g=")
+cl.login(token="EugBCs40FjrS2W8dQYTa.gIHgalwJsMTFisMR+xM0wG.4y+3/liOSQMZMIONFno8d0IIS4UbS+RiUZ+6oj53FZw=")
 cl.loginResult()
 
 print "\n[CIE LOGIN CIEEEE]"
@@ -144,7 +144,7 @@ helptranslate ="""
 KAC=[cl]
 mid = cl.getProfile().mid
 Bots=[mid]
-admin=["u45ac75d00ea685c99651e108b666c444"]
+admin=["u1a284600b5a34a6b5f2129abfd79b45a"]
 
 wait = {
     "likeOn":False,
