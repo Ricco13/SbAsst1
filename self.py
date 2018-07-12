@@ -16,10 +16,10 @@ from googletrans import Translator
 
 cl = PUY.LINE()
 #cl.login(qr=True)
-cl.login(token="EugBCs40FjrS2W8dQYTa.gIHgalwJsMTFisMR+xM0wG.4y+3/liOSQMZMIONFno8d0IIS4UbS+RiUZ+6oj53FZw=")
+cl.login(token="TokenAssistLoe")
 cl.loginResult()
 
-print "\n[CIE LOGIN CIEEEE]"
+print "\n╠->JANGAN SONGONG KALO PAKE SCRIPT ORANG LAIN PLOK]"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -144,7 +144,7 @@ helptranslate ="""
 KAC=[cl]
 mid = cl.getProfile().mid
 Bots=[mid]
-admin=["u1a284600b5a34a6b5f2129abfd79b45a"]
+admin=["MidAssistLoe"]
 
 wait = {
     "likeOn":False,
@@ -686,7 +686,7 @@ def bot(op):
                 
             elif msg.text.lower() == 'crash':
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "u1f41296217e740650e0448b96851a3e2',"}
+                msg.contentMetadata = {'mid': "MidAssist',"}
                 cl.sendMessage(msg)
             elif msg.text.lower() == 'me':
                 msg.contentType = 13
@@ -941,7 +941,7 @@ def bot(op):
                 cl.sendMessage(msg)
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ub14f769cdf42d8c8a618ebe91ac2c8c7"}
+                msg.contentMetadata = {'mid': "MidUtamaLoe"}
                 cl.sendMessage(msg)
                 kk.sendMessage(msg)
             elif msg.text.lower() == 'autoadd on':
@@ -2522,7 +2522,7 @@ def bot(op):
 
             elif cms(msg.text,["/creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ub14f769cdf42d8c8a618ebe91ac2c8c7"}
+                msg.contentMetadata = {'mid': "MidUtama"}
                 cl.sendMessage(msg)
 
             #elif msg.text in ["puy"]:
@@ -2573,7 +2573,7 @@ def bot(op):
 		    cname = cl.getContact(contact.mid).displayName
 		    if cname == _name:
 			cl.CloneContactProfile(contact.mid)
-			cl.sendText(msg.to, "Berhasil puy")
+			cl.sendText(msg.to, "Berhasil Bro")
 		    else:
 			pass
 
@@ -2799,7 +2799,7 @@ def bot(op):
                 for g in gs.members:
                     if _nametarget == g.displayName:
                        msg.contentType = 13
-                       msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
+                       msg.contentMetadata = {'mid': "MidUtama',"}
                        cl.sendText(g.mid,"Spam")
                        cl.sendMessage(msg)
                        cl.sendMessage(msg)
@@ -3030,7 +3030,7 @@ def bot(op):
                 	
             elif msg.text in ["Attack"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
+                msg.contentMetadata = {'mid': "MidUtama',"}
                 cl.sendMessage(msg)
                 cl.sendMessage(msg)
                 cl.sendMessage(msg)
@@ -3048,7 +3048,7 @@ def bot(op):
                 
             elif msg.text.lower() == '.....':
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
+                msg.contentMetadata = {'mid': "MidUtama',"}
                 cl.sendMessage(msg)    
 #=================================PUY SCRIPT FINISHED =============================================#
             
