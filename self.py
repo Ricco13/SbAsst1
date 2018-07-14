@@ -23,7 +23,8 @@ print "\n╠->JANGAN SONGONG KALO PAKE SCRIPT ORANG LAIN PLOK]"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpmsg ="""╠═════════════════
+helpmsg ="""
+╠═════════════════
 ╠-> Restart
 ╠-> Mention
 ╠-> setpoint on/off
@@ -34,7 +35,12 @@ helpmsg ="""╠═════════════════
 ╠-> Friendlist
 ╠-> id@en
 ╠-> en@id
-╠-> id@jp\n                 「+」\n╠-> help protect\n╠-> help self\n╠-> help set\n╠-> help grup\n╠-> help translate
+╠-> id@jp
+╠-> help protect
+╠-> help self
+╠-> help set
+╠-> help grup
+╠-> help translate
 ╚═════════════════"""
 
 helppro ="""
