@@ -23,13 +23,15 @@ print "\n╠->JANGAN SONGONG KALO PAKE SCRIPT ORANG WOOYY"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpmsg ="""╠═════════════════
+helpmsg ="""
+╠═════════════════
 ╠-> Restart
 ╠-> on/off
 ╠-> ciduk
 ╠-> Speed
 ╠-> Time 
-╠-> simisimi on/off                「+」\n╠-> help media\n╠-> 💩💩💩\n╠-> 💩💩💩\n╠-> 💩💩💩\n╠-> 🚫Owner🚫
+╠-> simisimi on/off
+╠-> help media
 ╚═════════════════"""
 
 helppro ="""
