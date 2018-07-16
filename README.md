@@ -28,7 +28,7 @@ Di Termux :
 -> cd downloads
 -> git clone https://github.com/zz7Bot/SbAssist1
 -> cd SbAssist1
--> python2 Self.py / Bot.py
+-> python2 self.py / bot.py
 
 Credit By :
 ------
