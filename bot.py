@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import PUY
-from PUY.lib.curve.ttypes import *
+import zz7
+from zz7.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
 from bs4 import BeautifulSoup
@@ -14,9 +14,9 @@ from googletrans import Translator
 #JANGAN LUPA =>  sudo pip install bs4 => sudo pip install BeautifulSoup => sudo pip install urllib => sudo pip install requests => sudo pip install gTTS
 #HAPPY BROOO
 
-cl = PUY.LINE()
+cl = zz7.LINE()
 #cl.login(qr=True)
-cl.login(token="TokenAssistLoe")
+cl.login(token="EvTGoKH3MUGeqyQLhvFa.gIHgalwJsMTFisMR+xM0wG.wIlp2mynTyANF+eEommW7tL5am6DI+CVGEEG5AdKOeM=")
 cl.loginResult()
 
 print "\n╠->JANGAN SONGONG KALO PAKE SCRIPT ORANG WOOYY"
@@ -25,172 +25,172 @@ sys.setdefaultencoding('utf-8')
 
 helpmsg ="""
 ╠════════════════════
-╠  ۩۞۩ H E L P ۩۞۩
+╠  ♅۩۞۩ MESSAGE ۩۞۩♅
 ╠════════════════════
-╠-> Restart
-╠-> on/off
-╠-> ciduk
-╠-> Speed
-╠-> Time 
-╠-> simisimi on/off
-╠-> help media
+╠👽 Restart
+╠👽 on/off
+╠👽 ciduk
+╠👽 Speed
+╠👽 Time 
+╠👽 simisimi on/off
+╠👽 help media
 ╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════"""
 
 helppro ="""
 ╠════════════════════
-╠  ۩۞۩ H E L P ۩۞۩
+╠  ♅۩۞۩ PROTECT ۩۞۩♅
 ╠════════════════════
-╠-> protect on/off
-╠-> qr on/off
-╠-> invite on/off
-╠-> cancel on/off
-╠-> ifconfig
-╠-> system
-╠-> kernel
-╠-> cpu
+╠👽 protect on/off
+╠👽 qr on/off
+╠👽 invite on/off
+╠👽 cancel on/off
+╠👽 ifconfig
+╠👽 system
+╠👽 kernel
+╠👽 cpu
 ╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════"""
 
 helpmedia ="""
 ╠════════════════════
-╠  ۩۞۩ H E L P ۩۞۩
+╠  ♅۩۞۩ MEDIA ۩۞۩♅
 ╠════════════════════
-╠-> google (text)
-╠-> playstore (text)
-╠-> Profileig (username)
-╠-> Instagram (username)
-╠-> wikipedia (text)
-╠-> idline: (text)
-╠-> yt (text)
-╠-> Image (text)
-╠-> Lirik (text)
-╠-> Music (text)
-╠-> ytmp4 (text)
-╠-> Say (text)
-╠-> Image (text)
-╠-> Gift
-╠-> Apakah (text)
-╠-> Kapan (text)
+╠👽 google (text)
+╠👽 playstore (text)
+╠👽 Profileig (username)
+╠👽 Instagram (username)
+╠👽 wikipedia (text)
+╠👽 idline: (text)
+╠👽 yt (text)
+╠👽 Image (text)
+╠👽 Lirik (text)
+╠👽 Music (text)
+╠👽 ytmp4 (text)
+╠👽 Say (text)
+╠👽 Image (text)
+╠👽 Gift
+╠👽 Apakah (text)
+╠👽 Kapan (text)
 ╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════"""
 
 helpself ="""
 ╠════════════════════
-╠  ۩۞۩ H E L P ۩۞۩
+╠  ♅۩۞۩ SELF ۩۞۩♅
 ╠════════════════════
-╠-> Me
-╠-> Myname:
-╠-> Mybio:
-╠-> Mypict
-╠-> Mycover
-╠-> copy @
-╠-> My backup
-╠-> Getgroup image
-╠-> Getmid @
-╠-> Getcontact @
-╠-> Getprofile @
-╠-> Getinfo @
-╠-> Getname @
-╠-> Getbio @
-╠-> Getpict @
-╠-> Getcover @
-╠-> Micadd @
-╠-> Micdel @
-╠-> Gcreator
-╠-> Infogrup
-╠-> Gruplist
-╠-> Friendlist
-╠-> Mimic
-╠-> Clone
+╠👽 Me
+╠👽 Myname:
+╠👽 Mybio:
+╠👽 Mypict
+╠👽 Mycover
+╠👽 copy @
+╠👽 My backup
+╠👽 Getgroup image
+╠👽 Getmid @
+╠👽 Getcontact @
+╠👽 Getprofile @
+╠👽 Getinfo @
+╠👽 Getname @
+╠👽 Getbio @
+╠👽 Getpict @
+╠👽 Getcover @
+╠👽 Micadd @
+╠👽 Micdel @
+╠👽 Gcreator
+╠👽 Infogrup
+╠👽 Gruplist
+╠👽 Friendlist
+╠👽 Mimic
+╠👽 Clone
 ╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════"""
 
 helpset ="""
 ╠════════════════════
-╠  ۩۞۩ H E L P ۩۞۩
+╠  ♅۩۞۩ SET ۩۞۩♅
 ╠════════════════════
-╠-> qr on/off
-╠-> protect on/off
-╠-> contact on/off
-╠-> autojoin on/off
-╠-> auto leave on/off
-╠-> cancel on/off
-╠-> invite on/off
-╠-> autoadd on/off
-╠-> like friend
-╠-> link on
-╠-> respon on/off
-╠-> read on/off
-╠-> simisimi on/off
+╠👽 qr on/off
+╠👽 protect on/off
+╠👽 contact on/off
+╠👽 autojoin on/off
+╠👽 auto leave on/off
+╠👽 cancel on/off
+╠👽 invite on/off
+╠👽 autoadd on/off
+╠👽 like friend
+╠👽 link on
+╠👽 respon on/off
+╠👽 read on/off
+╠👽 simisimi on/off
 ╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════"""
 
 helpgrup ="""
 ╠════════════════════
-╠  ۩۞۩ H E L P ۩۞۩
+╠  ♅۩۞۩ GROUP ۩۞۩♅
 ╠════════════════════
-╠-> tag
-╠-> Link on
-╠-> Url
-╠-> Cancel
-╠-> Gcreator
-╠-> Kick @
-╠-> Gname:
-╠-> Gbroadcast:
-╠-> Cbroadcast:
-╠-> Infogrup
-╠-> Gruplist
-╠-> Friendlist
-╠-> Blacklist
-╠-> Ban @
-╠-> Unban @
-╠-> Clearban
-╠-> Banlist
-╠-> Contact ban
-╠-> Midban
-╠-> Spamtag @
+╠👽 tag
+╠👽 Link on
+╠👽 Url
+╠👽 Cancel
+╠👽 Gcreator
+╠👽 Kick @
+╠👽 Gname:
+╠👽 Gbroadcast:
+╠👽 Cbroadcast:
+╠👽 Infogrup
+╠👽 Gruplist
+╠👽 Friendlist
+╠👽 Blacklist
+╠👽 Ban @
+╠👽 Unban @
+╠👽 Clearban
+╠👽 Banlist
+╠👽 Contact ban
+╠👽 Midban
+╠👽 Spamtag @
 ╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════"""
 
 helptranslate ="""
 ╠════════════════════
-╠  ۩۞۩ H E L P ۩۞۩
+╠  ♅۩۞۩ TRANS ۩۞۩♅
 ╠════════════════════
-╠-> Id@en
-╠-> En@id
-╠-> Id@jp
-╠-> Jp@id
-╠-> Id@th
-╠-> Th@id
-╠-> Id@ar
-╠-> Ar@id
-╠-> Id@ko
-╠-> Ko@id
-╠-> Say-id
-╠-> Say-en
-╠-> Say-jp
+╠👽 Id@en
+╠👽 En@id
+╠👽 Id@jp
+╠👽 Jp@id
+╠👽 Id@th
+╠👽 Th@id
+╠👽 Id@ar
+╠👽 Ar@id
+╠👽 Id@ko
+╠👽 Ko@id
+╠👽 Say-id
+╠👽 Say-en
+╠👽 Say-jp
 ╠═════════════════════════
-║     👽 By : ZeroZeveN 👽
+║      👽By : zz7ComBat👽
 ║  👽line.me/ti/p/ricco1311👽
 ╚═════════════════════════"""
 
 KAC=[cl]
 mid = cl.getProfile().mid
 Bots = [mid]
-admin = ["MidAssist","MidAkunUtama"]
+admin = ["u1a284600b5a34a6b5f2129abfd79b45a","uc00a7fc61069447f8db907f40233fb34"]
 
 wait = {
     "likeOn":False,
@@ -2558,7 +2558,7 @@ def bot(op):
                 cl.sendText(msg.to,van)
 
         
-#================================ PUY SCRIPT STARTED ==============================================#
+#================================ zz7 SCRIPT STARTED ==============================================#
             elif "google " in msg.text:
                     a = msg.text.replace("google ","")
                     b = urllib.quote(a)
@@ -2571,11 +2571,11 @@ def bot(op):
                 msg.contentMetadata = {'mid': "MidUtamaLoe"}
                 cl.sendMessage(msg)
 
-            #elif msg.text in ["puy"]:
-		  #cl.sendText(msg.to,"Puy here")
-          #      cl.sendText(msg.to,"Puy here")
-          #      kk.sendText(msg.to,"Puy here")
-          #      cl.sendText(msg.to,"Hadir semua puy!")
+            #elif msg.text in ["zz7"]:
+		  #cl.sendText(msg.to,"zz7 here")
+          #      cl.sendText(msg.to,"zz7 here")
+          #      kk.sendText(msg.to,"zz7 here")
+          #      cl.sendText(msg.to,"Hadir semua zz7!")
 
             elif msg.text in ["Masuk..","....","Join kuy..."]: #Panggil Semua Bot
               if msg.from_ in admin:
@@ -2595,7 +2595,7 @@ def bot(op):
                 cl.updateGroup(G)
                 print "Semua Sudah Lengkap"
 
-            elif msg.text in ["Puy join"]:
+            elif msg.text in ["zz7 join"]:
               if msg.from_ in admin:
                   x = ki.getGroup(msg.to)
                   x.preventJoinByTicket = False
@@ -3075,7 +3075,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': "MidUtamaLoe',"}
                 cl.sendMessage(msg)    
-#=================================PUY SCRIPT FINISHED =============================================#
+#=================================zz7 SCRIPT FINISHED =============================================#
             
             elif "Ban @" in msg.text:
                 if msg.toType == 2:
