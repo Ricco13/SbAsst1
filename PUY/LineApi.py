@@ -425,8 +425,8 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("                                       HAI                                         ")
-      print("ObelixT3am MUACH")
+      print("рџ‘Ѕв™…LOE SONGONG BERARTI LOE SIAP ANCURв™…рџ‘ЅSALAM JARI TENGAH BUAT PECUNDANGв™…рџ‘Ѕ")
+      print("рџ‘Ѕzz7CombatIndoрџ‘Ѕ")
       print("Nama akun lu\n -> " + prof.displayName)
       print("Mid lu ->\n " + prof.mid)
       print("Certificate lu ->\n " + self.cert if self.cert is not None else "")
